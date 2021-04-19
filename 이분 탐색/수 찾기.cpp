@@ -40,7 +40,7 @@ int binarySearch(int low, int high, int target)
 }
 
 
-int main(void)
+int main()
 {
     ios_base::sync_with_stdio(0);
 
