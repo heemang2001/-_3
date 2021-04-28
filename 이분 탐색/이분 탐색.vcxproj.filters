@@ -30,7 +30,10 @@
     <ClCompile Include="이진 탐색.cpp">
       <Filter>소스 파일\동빈나</Filter>
     </ClCompile>
-    <ClCompile Include="떡볶이 떡 만들기.cpp">
+    <ClCompile Include="떡볶이 떡 만들기%28재귀%29.cpp">
+      <Filter>소스 파일\동빈나</Filter>
+    </ClCompile>
+    <ClCompile Include="떡볶이 떡 만들기(반복).cpp">
       <Filter>소스 파일\동빈나</Filter>
     </ClCompile>
   </ItemGroup>
