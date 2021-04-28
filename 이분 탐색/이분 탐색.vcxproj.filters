@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\백준">
       <UniqueIdentifier>{4cd572dc-60f8-4243-b0b2-064544a3b06d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\동빈나">
+      <UniqueIdentifier>{cb472faf-c1ed-47a0-b216-4243bd3c9199}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="수 찾기.cpp">
@@ -23,6 +26,12 @@
     </ClCompile>
     <ClCompile Include="숫자 카드2.cpp">
       <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="이진 탐색.cpp">
+      <Filter>소스 파일\동빈나</Filter>
+    </ClCompile>
+    <ClCompile Include="떡볶이 떡 만들기.cpp">
+      <Filter>소스 파일\동빈나</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
