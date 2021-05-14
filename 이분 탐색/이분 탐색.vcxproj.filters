@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\동빈나">
       <UniqueIdentifier>{cb472faf-c1ed-47a0-b216-4243bd3c9199}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스">
+      <UniqueIdentifier>{5cdfc7f9-4697-476f-970a-ede4fd75244c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="수 찾기.cpp">
@@ -38,6 +41,9 @@
     </ClCompile>
     <ClCompile Include="정렬된 배열에서 특정 수의 개수 구하기.cpp">
       <Filter>소스 파일\동빈나</Filter>
+    </ClCompile>
+    <ClCompile Include="입국심사.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
