@@ -24,7 +24,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="수 찾기.cpp">
+    <ClCompile Include="수 찾기%28재귀%29.cpp">
       <Filter>소스 파일\백준</Filter>
     </ClCompile>
     <ClCompile Include="숫자 카드2.cpp">
@@ -44,6 +44,9 @@
     </ClCompile>
     <ClCompile Include="입국심사.cpp">
       <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="수 찾기.cpp">
+      <Filter>소스 파일\백준</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
