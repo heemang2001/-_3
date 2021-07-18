@@ -8,6 +8,7 @@ int marble[301];
 bool maxMarbleSum(int val)
 {
 	int cnt = 1, sum = 0;
+
 	for (int i = 0; i < n; ++i)
 	{
 		if (marble[i] > val)
@@ -30,7 +31,8 @@ bool maxMarbleSum(int val)
 	return cnt <= m;
 }
 
-int main() {
+int main()
+{
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 
