@@ -7,7 +7,8 @@ int marble[301];
 
 bool maxMarbleSum(int val)
 {
-	int cnt = 1, sum = 0;
+	int cnt = 1;
+	int sum = 0;
 
 	for (int i = 0; i < n; ++i)
 	{
@@ -43,20 +44,21 @@ int main()
 		cin >> marble[i];
 	}
 		
-	int l = 1, r = n * 100;
+	int start = 1;
+	int end = n * 100;
 
-	while (l <= r)
+	while (start <= end)
 	{
-		int mid = (l + r) / 2;
+		int mid = (start + end) / 2;
 
 		if (maxMarbleSum(mid))
 		{
-			r = mid - 1;
+			end = mid - 1;
 		}
 
 		else
 		{
-			l = mid + 1;
+			start = mid + 1;
 		}
 	}
 
