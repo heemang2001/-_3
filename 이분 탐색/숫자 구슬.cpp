@@ -64,34 +64,6 @@ int main()
 
 	cout << start << endl;
 
-	//int cnt = 0, sum = 0, group = 1;
-	//vector<int> ans;
-	//for (int i = 0; i < n; ++i) {
-	//	sum += marble[i];
-	//	if (sum > l) {
-	//		ans.push_back(cnt);
-	//		sum = marble[i];
-	//		cnt = 0;
-	//		++group;
-	//	}
-	//	++cnt;
-	//}
-	//ans.push_back(cnt);
-	//int pos = ans.size() - 1;
-	//while (group < m) {
-	//	if (ans[pos] == 1) {
-	//		--pos;
-	//	}
-	//	else {
-	//		--ans[pos];
-	//		ans.push_back(1);
-	//		++group;
-	//	}
-	//}
-	//for (int val : ans) {
-	//	cout << val << " ";
-	//}
-
 	return 0;
 }
 
