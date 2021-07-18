@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\프로그래머스">
       <UniqueIdentifier>{5cdfc7f9-4697-476f-970a-ede4fd75244c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\코드업">
+      <UniqueIdentifier>{8a611195-1035-4df3-b9af-0c56b3d41d6e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="수 찾기%28재귀%29.cpp">
@@ -53,6 +56,9 @@
     </ClCompile>
     <ClCompile Include="숫자 카드.cpp">
       <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자 구슬.cpp">
+      <Filter>소스 파일\코드업</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
