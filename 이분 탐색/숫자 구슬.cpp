@@ -24,7 +24,7 @@ bool maxMarbleSum(int val)
 
 		else
 		{
-			++cnt;
+			cnt++;
 			sum = marble[i];
 		}
 	}
@@ -39,7 +39,7 @@ int main()
 
 	cin >> n >> m;
 
-	for (int i = 0; i < n; ++i)
+	for (int i = 0; i < n; i++)
 	{
 		cin >> marble[i];
 	}
@@ -62,7 +62,7 @@ int main()
 		}
 	}
 
-	cout << l << endl;
+	cout << start << endl;
 
 	//int cnt = 0, sum = 0, group = 1;
 	//vector<int> ans;
