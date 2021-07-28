@@ -60,5 +60,8 @@
     <ClCompile Include="숫자 구슬.cpp">
       <Filter>소스 파일\코드업</Filter>
     </ClCompile>
+    <ClCompile Include="공유기 설치.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
